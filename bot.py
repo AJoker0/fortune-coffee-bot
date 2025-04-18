@@ -5,6 +5,9 @@ import random
 from predictions import predictions
 from keyboard import drink_kb
 from tasks import get_random_task
+from keep_alive import keep_alive
+keep_alive()
+
 
 
 API_TOKEN = '7925334331:AAFjfKpuKvGT8fCFOgjPGfW7pt_gjjvb5lQ'
