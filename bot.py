@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-API_TOKEN = os.getenv("TELEGRAM_TOKEN")
+API_TOKEN = os.getenv("API_TOKEN")
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
