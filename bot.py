@@ -7,10 +7,11 @@ from keyboard import drink_kb
 from tasks import get_random_task
 from keep_alive import keep_alive
 keep_alive()
+from dotenv import load_dotenv
+import os
 
-
-
-API_TOKEN = '7925334331:AAFjfKpuKvGT8fCFOgjPGfW7pt_gjjvb5lQ'
+load_dotenv()
+API_TOKEN = os.getenv("TELEGRAM_TOKEN")
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
