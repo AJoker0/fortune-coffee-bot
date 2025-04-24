@@ -27,7 +27,7 @@ API_TOKEN=your_bot_token
 
     python bot.py
 
-5. For Render or other platforms, use keep_alive.py to keep the bot online by periodically pinging it.
+5. For **Render and UptimeRobot ** or other platforms, use keep_alive.py to keep the bot online by periodically pinging it.
 
 Project structure:
 
